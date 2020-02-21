@@ -1,0 +1,7 @@
+<%= flash[:notice] if flash[:notice] %><br>
+
+<% if current_user %>
+  <%= link_to 'Sign-out', :destroy_user_session, method: :delete %>
+<% else %>
+  <%= link_to 'Sign-up', :new_user_registration %>
+<% end %>
