@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+# set default raffle
+Raffle.create([
+  { name: "Win a fancy dinner"},
+  { name: "Win a kid’s toy"},
+  { name: "Win a free bottle of perfume"}
+])
