@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
 Things you may want to cover:
 
-* Ruby version
+* Ruby version - '2.5.1'
 
-* System dependencies
+* Run migration `rails db:migrate`
 
-* Configuration
+* Run seed file `rails db:seed`
 
-* Database creation
+* Run the test suite using `rspec`
 
-* Database initialization
+* Start App with `rails s`
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Open browser and run app with url http://localhost:3000
