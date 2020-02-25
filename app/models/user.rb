@@ -17,4 +17,8 @@ class User < ApplicationRecord
       errors.add(:raffle, 'already exits')
     end
   end
+
+  def winning_percentage
+    (100 / User.where(raffle_id: raffle_id).count).round(2)
+  end
 end
